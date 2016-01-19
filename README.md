@@ -10,6 +10,7 @@ If you're reading this in c9 terminal
  * no `nano` allowed! `vim`'s escape key is set to `jk`.
  * creating new panes in `tmux` doesn't end well. stick to windows.
  * `asciiportal` is in `~/playground` but it's visually messed up. TODO: fix it!
+ * don't forget to clean up your mess. we only got 5G.
 
 If you're looking at the repo
 -----------------------------
