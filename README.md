@@ -5,11 +5,11 @@ A cli-party is a collaborative event utilizing [Cloud9][1]'s [Ubuntu Docker][2] 
 
 If you're reading this in c9 terminal
 -------------------------------------
- * the default location is $HOME/workspace.
- * $HOME/workspace = linuxpadawan/wxl-cli-party.git
- * you might have more fun in $HOME proper.
- * you are technically the ubuntu user, regardless of what the prompt suggests.
- * no nano allowed! vim's escape key is set to jk.
+ * the default location is `$HOME/workspace` = `linuxpadawan/wxl-cli-party.git`.
+ * you are technically the `ubuntu` user, regardless of what the prompt suggests.
+ * no `nano` allowed! `vim`'s escape key is set to `jk`.
+ * creating new panes in `tmux` doesn't end well. stick to windows.
+ * `asciiportal` is in `~/playground` but it's visually messed up. TODO: fix it!
 
 If you're looking at the repo
 -----------------------------
