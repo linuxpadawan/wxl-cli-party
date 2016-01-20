@@ -1,6 +1,8 @@
 CLI-PARTY
 =========
 
+![screenshot][] ([enbiggen][])
+
 A cli-party is a collaborative event utilizing [Cloud9][1]'s [Ubuntu Docker][2] instances running what appears to be a js layer on top of tmux. This provides an excellent learning opportunity to essentially play with the REPL that the shell is.
 
 RULES
@@ -24,3 +26,6 @@ Currently, it only contains some dotfiles that are symlinked to this repo. You c
 [1]: https://c9.io
 [2]: https://dockerfile.github.io/#/ubuntu
 [3]: https://ide.c9.io/wxl/cli-party
+
+[screenshot]: https://i.imgur.com/zy0q5Ff.png
+[enbiggen]: https://i.imgur.com/eVEvHbk.png
