@@ -1,7 +1,8 @@
 CLI-PARTY
 =========
 
-![screenshot][] ([enbiggen][])
+![screenshot][] 
+([enbiggen][])
 
 A cli-party is a collaborative event utilizing [Cloud9][1]'s [Ubuntu Docker][2] instances running what appears to be a js layer on top of tmux. This provides an excellent learning opportunity to essentially play with the REPL that the shell is.
 
