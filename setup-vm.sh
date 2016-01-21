@@ -7,13 +7,13 @@
 # syntax: "directory or file"\<Space>
 # directories are handled recusively
 entries=(\ 
-".c9"\ 
-".gitconfig"\ 
-".gitignore"\ 
-".linux_logo"\ 
-".tmux.conf"\ 
-".vimrc"\ 
-"README.md"\ 
+".c9"\
+".gitconfig"\
+".gitignore"\
+".linux_logo"\
+".tmux.conf"\
+".vimrc"\
+"README.md"\
 )
 
 cd $HOME/workspace
