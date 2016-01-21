@@ -9,7 +9,7 @@ A cli-party is a collaborative event utilizing [Cloud9][1]'s [Ubuntu Docker][2] 
 
 RULES
 -----
- * PLAY NICE! if you break it, you put it back the way it was. ☺
+ * PLAY NICE! if you break it, you put it back the way it was. ☺ that may be hard for you if you delete `/etc`. don't do that.
  * don't forget to clean up your mess. we only got 5G.
 
 NOTES
@@ -24,7 +24,7 @@ NOTES
 REPO
 ----
  * various dotfiles for the vm
- * setup-vm.sh script to set up dotfiles on new vm
+ * `setup-vm.sh` script to set up new vm
  * ask for organizational access to push
 
 [1]: https://c9.io
