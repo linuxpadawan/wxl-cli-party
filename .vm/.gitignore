@@ -1,7 +1,9 @@
-.hgignore
-node_modules
 #.c9
 .c9/metadata
+.c9/vfs*
+
+.hgignore
+node_modules
 .DS_Store
 Thumbs.db
 
