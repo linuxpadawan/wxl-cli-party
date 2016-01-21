@@ -16,14 +16,17 @@ RULES
 NOTES
 -----
  * the default location is `$HOME/workspace` = `linuxpadawan/wxl-cli-party.git` ≠ `$HOME`.
- * no `nano` allowed! `vim`'s escape key is set to `jk`. on that subject, there's no [`chattr`][4] on `aufs`.
+ * please no `nano`. i'll teach you vim! `vim`'s escape key is set to `jk`. on that subject.
+ * there's no [`chattr`][4] on `aufs`.
  * creating new panes in `tmux` doesn't end well. stick to windows. you might find playing with the existing session(s) interesting. or you could nest a `screen` inside, just to mess with people.
  * `asciiportal` is in `~/playground` but it's visually messed up. you're welcome to fix it. might check out `/usr/bin/games`.
  * you should join the [party][3].
 
 REPO
 ----
-Currently, it only contains some dotfiles that are symlinked to this repo. You can push stuff to it if you want, but we're gonna license that crap!
+ * various dotfiles for the vm
+ * setup-vm.sh script to set up dotfiles on new vm
+ * feel free to push!
 
 [1]: https://c9.io
 [2]: https://dockerfile.github.io/#/ubuntu
