@@ -10,7 +10,6 @@ A cli-party is a collaborative event utilizing [Cloud9][1]'s [Ubuntu Docker][2] 
 RULES
 -----
  * PLAY NICE! if you break it, you put it back the way it was. ☺
- * no `nano` allowed! `vim`'s escape key is set to `jk`.
  * don't forget to clean up your mess. we only got 5G.
 
 NOTES
