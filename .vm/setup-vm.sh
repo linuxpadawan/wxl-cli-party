@@ -31,7 +31,8 @@ function setup_entries {
 	cd $HOME/workspace
 
 	for entry in ${entries[@]}; do
-		ln -s $HOME/workspace/${entry} $HOME/${entry}
+		rm $HOME/${entry}
+		ln -s $HOME/workspace/vm/${entry} $HOME/${entry}
 	done
 
 }
