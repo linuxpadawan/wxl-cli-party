@@ -25,7 +25,7 @@ REPO
 ----
  * various dotfiles for the vm
  * setup-vm.sh script to set up dotfiles on new vm
- * feel free to push!
+ * ask for organizational access to push
 
 [1]: https://c9.io
 [2]: https://dockerfile.github.io/#/ubuntu
