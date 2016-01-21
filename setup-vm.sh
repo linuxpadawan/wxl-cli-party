@@ -8,6 +8,10 @@
 # directories are handled recusively
 entries=(\ 
 ".c9"\ 
+".bash_aliases"\ 
+".bash_logout"\ 
+".bashrc"\ 
+".profile"\ 
 ".gitconfig"\ 
 ".gitignore"\ 
 ".linux_logo"\ 
@@ -26,8 +30,8 @@ function setup_entries {
 
 	cd $HOME/workspace
 
-	for entry in "${entries[@]}"; do
-		ln -s $HOME/workspace/"${entry}" $HOME/"${entry}"
+	for entry in ${entries[@]}; do
+		ln -s $HOME/workspace/${entry} $HOME/${entry}
 	done
 
 }
@@ -36,11 +40,11 @@ function install_packages {
 
 	sudo apt-get update
 
-	for package in "${packages[@]}"; do
+	for package in ${packages[@]}; do
 		sudo apt -y install $package
 	done
 
 }
 
 setup_entries
-install_packages
+#install_packages
