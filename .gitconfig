@@ -1,0 +1,13 @@
+[user]
+    name = live and direct: cli-party 
+    email = info@linuxpadawan.net
+[core]
+    editor = vim
+    whitespace = off
+    excludesfile = ~/.gitignore
+[advice]
+    statusuoption = false
+[color]
+    ui = true
+[push]
+    default = simple
