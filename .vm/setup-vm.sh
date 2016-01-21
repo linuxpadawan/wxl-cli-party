@@ -23,7 +23,8 @@ entries=(\
 # packages to install
 # syntax: "package"\<Space>
 packages=(\ 
-"linux_logo"\ 
+"linuxlogo"\ 
+"w3m"\ 
 )
 
 function setup_entries {
@@ -32,7 +33,7 @@ function setup_entries {
 
 	for entry in ${entries[@]}; do
 		rm $HOME/${entry}
-		ln -s $HOME/workspace/vm/${entry} $HOME/${entry}
+		ln -s $HOME/workspace/.vm/${entry} $HOME/${entry}
 	done
 
 }
