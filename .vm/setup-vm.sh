@@ -25,6 +25,7 @@ entries=(\
 packages=(\ 
 "linuxlogo"\ 
 "w3m"\ 
+"python-pygments"\ 
 )
 
 function setup_entries {
