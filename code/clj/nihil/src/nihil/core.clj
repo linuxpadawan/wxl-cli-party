@@ -2,12 +2,10 @@
   (:gen-class))
 
 (defn -main
-  "I don't do a whole lot ... yet."
+  "testing for zen through null sets."
   [& args]
-  (let [f #(
-    (println "empty?" (empty? %)) 
-    (println "empty" (not (nil? (empty %)))) 
-    (println "not-empty" (not (nil? (not-empty %)))) 
-    (println "true?" (true? %)) 
-    (println "false?" (false? %)))] 
-  (f (set '(nil)))))
+  (let [x (set '(nil))] 
+    (println "empty →" (not (nil? (empty x)))) 
+    (println "not-empty →" (not (nil? (not-empty x)))) 
+    (println "true? →" (true? x)) 
+    (println "false? →" (false? x)))) 
