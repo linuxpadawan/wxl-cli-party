@@ -18,7 +18,6 @@ NOTES
  * please no `nano`. i'll teach you vim! `vim`'s escape key is set to `jk`. on that subject.
  * there's no [`chattr`][4] on `aufs`.
  * creating new panes in `tmux` doesn't end well. stick to windows. you might find playing with the existing session(s) interesting. or you could nest a `screen` inside, just to mess with people.
- * `asciiportal` is in `~/playground` but it's visually messed up. you're welcome to fix it. might check out `/usr/bin/games`.
  * you should join the [party][3]. request read/write access once you're in.
 
 REPO
